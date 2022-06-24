@@ -15,11 +15,11 @@ For exhaustive details, we refer to the overview given in the manuscript.
 
 ## Getting the dataset
 
-The dataset can be downloaded by executing:
+The dataset can be downloaded and extracted by executing:
 
 ```
 wget https://www.lfb.rwth-aachen.de/download/olp-dataset.tar
-tar -xvf olp-dataset.tar -C olp-dataset/
+tar -xvf olp-dataset.tar -C olp-dataset/ && rm olp-dataset.tar
 ```
 in a shell.
 Alternatively, the URL can of course be opened in the browser to trigger the download that way.
